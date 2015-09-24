@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9EABA68E-6E5A-4DDE-86DF-77EC7061F19D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UCIndexedObjects</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ADC3E3909C79672AD84795F521609085DD690F4D</key>
+		<string>https://github.com/yuchism/UCIndexedObjects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UCIndexedObjects/UCIndexedObjects.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ADC3E3909C79672AD84795F521609085DD690F4D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yuchism/UCIndexedObjects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADC3E3909C79672AD84795F521609085DD690F4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADC3E3909C79672AD84795F521609085DD690F4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UCIndexedObjects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
