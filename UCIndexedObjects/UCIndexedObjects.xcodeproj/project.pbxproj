@@ -17,6 +17,10 @@
 		524729441B9437C7005BC9D0 /* UCIndexedObjectDefaultGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5247293C1B9437C7005BC9D0 /* UCIndexedObjectDefaultGroup.m */; };
 		524729451B9437C7005BC9D0 /* UCIndexedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 524729401B9437C7005BC9D0 /* UCIndexedObjects.m */; };
 		524729461B9437C7005BC9D0 /* UCIndexedObjectsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 524729431B9437C7005BC9D0 /* UCIndexedObjectsResult.m */; };
+		52851B7C1BA80116008A8D1C /* UCIDGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 52851B7B1BA80116008A8D1C /* UCIDGen.m */; };
+		5293A5331BB3795E00B709BD /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 5293A5321BB3795E00B709BD /* Group.m */; settings = {ASSET_TAGS = (); }; };
+		5293A5361BB3796700B709BD /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5293A5351BB3796700B709BD /* Item.m */; settings = {ASSET_TAGS = (); }; };
+		52CAED741BAA5596000E8521 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CAED731BAA5596000E8521 /* NSDate+Utils.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,14 @@
 		524729411B9437C7005BC9D0 /* UCIndexedObjectsCompleteStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCIndexedObjectsCompleteStatus.h; sourceTree = "<group>"; };
 		524729421B9437C7005BC9D0 /* UCIndexedObjectsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCIndexedObjectsResult.h; sourceTree = "<group>"; };
 		524729431B9437C7005BC9D0 /* UCIndexedObjectsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCIndexedObjectsResult.m; sourceTree = "<group>"; };
+		52851B7A1BA80116008A8D1C /* UCIDGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCIDGen.h; sourceTree = "<group>"; };
+		52851B7B1BA80116008A8D1C /* UCIDGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCIDGen.m; sourceTree = "<group>"; };
+		5293A5311BB3795E00B709BD /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		5293A5321BB3795E00B709BD /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		5293A5341BB3796700B709BD /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		5293A5351BB3796700B709BD /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		52CAED721BAA5596000E8521 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		52CAED731BAA5596000E8521 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +105,10 @@
 		524729131B943736005BC9D0 /* UCIndexedObjects */ = {
 			isa = PBXGroup;
 			children = (
+				5293A5301BB3794000B709BD /* Model */,
 				5247293A1B943777005BC9D0 /* UCIndexedObjects */,
+				52CAED721BAA5596000E8521 /* NSDate+Utils.h */,
+				52CAED731BAA5596000E8521 /* NSDate+Utils.m */,
 				524729181B943736005BC9D0 /* AppDelegate.h */,
 				524729191B943736005BC9D0 /* AppDelegate.m */,
 				5247291B1B943736005BC9D0 /* ViewController.h */,
@@ -102,6 +117,8 @@
 				524729211B943736005BC9D0 /* Images.xcassets */,
 				524729231B943736005BC9D0 /* LaunchScreen.xib */,
 				524729141B943736005BC9D0 /* Supporting Files */,
+				52851B7A1BA80116008A8D1C /* UCIDGen.h */,
+				52851B7B1BA80116008A8D1C /* UCIDGen.m */,
 			);
 			path = UCIndexedObjects;
 			sourceTree = "<group>";
@@ -146,6 +163,17 @@
 				524729431B9437C7005BC9D0 /* UCIndexedObjectsResult.m */,
 			);
 			path = UCIndexedObjects;
+			sourceTree = "<group>";
+		};
+		5293A5301BB3794000B709BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5293A5311BB3795E00B709BD /* Group.h */,
+				5293A5321BB3795E00B709BD /* Group.m */,
+				5293A5341BB3796700B709BD /* Item.h */,
+				5293A5351BB3796700B709BD /* Item.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5293A5361BB3796700B709BD /* Item.m in Sources */,
+				5293A5331BB3795E00B709BD /* Group.m in Sources */,
 				524729451B9437C7005BC9D0 /* UCIndexedObjects.m in Sources */,
+				52851B7C1BA80116008A8D1C /* UCIDGen.m in Sources */,
 				524729441B9437C7005BC9D0 /* UCIndexedObjectDefaultGroup.m in Sources */,
 				5247291D1B943736005BC9D0 /* ViewController.m in Sources */,
+				52CAED741BAA5596000E8521 /* NSDate+Utils.m in Sources */,
 				524729461B9437C7005BC9D0 /* UCIndexedObjectsResult.m in Sources */,
 				5247291A1B943736005BC9D0 /* AppDelegate.m in Sources */,
 				524729171B943736005BC9D0 /* main.m in Sources */,
@@ -450,6 +482,7 @@
 				524729361B943736005BC9D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524729371B943736005BC9D0 /* Build configuration list for PBXNativeTarget "UCIndexedObjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +491,7 @@
 				524729391B943736005BC9D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
